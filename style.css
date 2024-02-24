@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    background: #3B4664;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.mainframe {
+    height: 75vh;
+    width: 30vw;
+}
+
+.heading {
+    color: #FFFFFF;
+}
+
+.display {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    padding: 1rem 3rem;
+    margin: 1rem 0;
+    color: #FFFFFF;
+    background: #181F32;
+    width: 80%;
+    height: 5rem;
+    border-radius: 0.5rem;
+    box-shadow: 0px 4px 4px 0px #00000040;
+    font-size: 2.5rem;
+    font-weight: 700;
+    letter-spacing: 1rem;
+    font-family: Segoe UI;
+}
+
+.btn-container{
+    padding: 1rem 3rem;
+    background: #252D44;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 4px 4px 0px #00000040;
+    border-radius: 0.5rem;
+    width: 80%;
+    height: 24rem;
+    flex-direction: column;
+}
+.btn-row{
+    background: transparent;
+    margin: 1rem 0;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 15%;
+}
+.number{
+    border: 0;
+    background: #EAE3DB;
+    box-shadow: 0px 4px 4px 0px #00000040;
+    height: 100%;
+    width: 20%;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    font-family: Inter;
+    font-weight: 800;
+    font-size: 1.5rem;
+}
+.delete{
+    border: 0;
+    background: #647299;
+    box-shadow: 0px 4px 4px 0px #00000040;
+    height: 100%;
+    width: 20%;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    font-family: Inter;
+    color:#FFFFFF;
+    font-weight: 800;
+    font-size: 1.5rem;
+}
+.reset{
+    border: 0;
+    background: #647299;
+    box-shadow: 0px 4px 4px 0px #00000040;
+    height: 100%;
+    width: 45%;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    font-family: Inter;
+    color:#FFFFFF;
+    font-weight: 800;
+    font-size: 1.5rem;
+}
+.equal{
+    border: 0;
+    background: #D13F30;
+    box-shadow: 0px 4px 4px 0px #00000040;
+    height: 100%;
+    width: 45%;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    font-family: Inter;
+    color:#FFFFFF;
+    font-weight: 800;
+    font-size: 1.5rem;
+}
