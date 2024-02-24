@@ -2,7 +2,6 @@ const display = document.getElementsByClassName("number");
 const script = document.getElementsByClassName("display");
 
 for(let elem of display){
-    console.log(elem.innerText)
     elem.addEventListener("click", ()=>{
         script[0].innerText+=elem.innerText
     })
@@ -17,5 +16,6 @@ document.getElementsByClassName("delete")[0].addEventListener("click", ()=>{
 })
 
 document.getElementsByClassName("equal")[0].addEventListener("click", ()=>{
-    script[0].innerText=eval(script[0].innerText)
+    let exp = script[0].innerText.replaceAll("x","*");
+    script[0].innerText=eval(exp)
 })
